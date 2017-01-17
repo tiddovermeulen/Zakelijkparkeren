@@ -21,7 +21,7 @@ class HomeModel: NSObject, NSURLSessionDataDelegate {
     
     var data : NSMutableData = NSMutableData()
     
-    let urlPath: String = "http://iosquiz.com/service.php" //this will be changed to the path where service.php lives
+    let urlPath: String = "http://tiddovermeulen.nl/service.php" //this will be changed to the path where service.php lives
     
     
     func downloadItems() {
