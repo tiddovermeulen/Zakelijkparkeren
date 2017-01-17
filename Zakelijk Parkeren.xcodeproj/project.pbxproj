@@ -14,6 +14,8 @@
 		DF9BBF721E2A96D6007FF3AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF9BBF701E2A96D6007FF3AC /* LaunchScreen.storyboard */; };
 		DF9BBF7D1E2A96D6007FF3AC /* Zakelijk_ParkerenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9BBF7C1E2A96D6007FF3AC /* Zakelijk_ParkerenTests.swift */; };
 		DF9BBF881E2A96D6007FF3AC /* Zakelijk_ParkerenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9BBF871E2A96D6007FF3AC /* Zakelijk_ParkerenUITests.swift */; };
+		DF9BBFB41E2B9E97007FF3AC /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9BBFB31E2B9E97007FF3AC /* HomeModel.swift */; };
+		DF9BBFB61E2B9EAD007FF3AC /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9BBFB51E2B9EAD007FF3AC /* LocationModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		DF9BBF831E2A96D6007FF3AC /* Zakelijk ParkerenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zakelijk ParkerenUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF9BBF871E2A96D6007FF3AC /* Zakelijk_ParkerenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zakelijk_ParkerenUITests.swift; sourceTree = "<group>"; };
 		DF9BBF891E2A96D6007FF3AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF9BBFB31E2B9E97007FF3AC /* HomeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		DF9BBFB51E2B9EAD007FF3AC /* LocationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				DF9BBF6E1E2A96D6007FF3AC /* Assets.xcassets */,
 				DF9BBF701E2A96D6007FF3AC /* LaunchScreen.storyboard */,
 				DF9BBF731E2A96D6007FF3AC /* Info.plist */,
+				DF9BBFB31E2B9E97007FF3AC /* HomeModel.swift */,
+				DF9BBFB51E2B9EAD007FF3AC /* LocationModel.swift */,
 			);
 			path = "Zakelijk Parkeren";
 			sourceTree = "<group>";
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF9BBFB61E2B9EAD007FF3AC /* LocationModel.swift in Sources */,
 				DF9BBF6A1E2A96D6007FF3AC /* ViewController.swift in Sources */,
 				DF9BBF681E2A96D6007FF3AC /* AppDelegate.swift in Sources */,
+				DF9BBFB41E2B9E97007FF3AC /* HomeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +511,7 @@
 				DF9BBF8E1E2A96D6007FF3AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF9BBF8F1E2A96D6007FF3AC /* Build configuration list for PBXNativeTarget "Zakelijk ParkerenTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +520,7 @@
 				DF9BBF911E2A96D6007FF3AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF9BBF921E2A96D6007FF3AC /* Build configuration list for PBXNativeTarget "Zakelijk ParkerenUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +529,7 @@
 				DF9BBF941E2A96D6007FF3AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
